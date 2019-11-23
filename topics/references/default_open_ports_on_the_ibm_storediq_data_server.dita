@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_wnp_5kd_vjb">
+    <title>Default open ports on the IBM StoredIQ data server</title>
+    <refbody>
+        <table frame="all" rowsep="1" colsep="1" id="table_lrr_1ld_vjb">
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="newCol3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry align="left" valign="top">Port number</entry>
+                        <entry align="left" valign="top">Protocol</entry>
+                        <entry>Service</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry align="left" valign="top">22</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                        <entry>PROD-ssh</entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">80</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                        <entry>PROD-web</entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">443</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                        <entry>PROD-https (UI and Web Services APIs)</entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">11103</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                        <entry morerows="1">PROD-transport (IBM StoredIQ transport services;
+                            communication between the gateway and the data server)</entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">11104</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

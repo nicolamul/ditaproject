@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="vmware_requirements">
+    <title>VMware requirements</title>
+    <refbody>
+        <example>
+            <ul id="ul_gnq_cpd_vjb">
+                <li>VMware vSphere v5.0 and fix packs or v6.0 and fix packs.</li>
+                <li>VMware ESXi v5.0 and fix packs, v6.0 and fix packs, or v6.5 and fix packs.</li>
+                <li>VMware virtual machine hardware version 8.0 or later. For more information, see
+                    the VMware product documentation.</li>
+                <li>The appropriate VMware license to enable the required processor cores and memory
+                    for the virtual machine.</li>
+            </ul>
+        </example>
+    </refbody>
+</reference>

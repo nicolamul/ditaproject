@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="planning_for_deployment">
+    <title>Planning for deployment</title>
+    <shortdesc>When you plan a deployment of IBM StoredIQ, evaluate several infrastructure
+        considerations. In addition to the information in this section, review the requirements
+        detailed in the IBM Software Product Compatibility Reports (SPCR) tool at: Software Product
+        Compatibility Reports: StoredIQ 7.6 </shortdesc>
+    <conbody>
+        <p>If you plan to use IBM StoredIQ for Legal Identification and Collection to create and
+            manage data boxes and data requests that are to be fulfilled by IBM StoredIQ, also check
+            the system requirements for StoredIQ for Legal at: Software Product Compatibility
+            Reports: StoredIQ for Legal 2.0.3</p>
+        <section id="section_o1k_lgd_vjb">
+            <title>Generate customized reports with the SPCR tool</title>
+            <p>Go to the page at Software Product Compatibility Reports to create a high-level
+                report for supported operating systems, related software, hypervisors, and supported
+                translations for any product. You can also create an in-depth report to get detailed
+                system requirements, hardware requirements, and end of service information for each
+                product. You can search for a product in all of the report types and reports are
+                generated based on your query values.</p>
+            <p>The following report types are the most commonly generated reports from software
+                product compatibility reports:</p>
+            <dl>
+                <dlentry>
+                    <dt>Detailed system requirements</dt>
+                    <dd>When you select your product version for the detailed system requirements
+                        report, you can set a report filter for<uicontrol> Operating system
+                            platforms</uicontrol>, <uicontrol>Product components</uicontrol>, and
+                            <uicontrol>Capabilities</uicontrol>, including prerequisites and support
+                        software. After you view the report, you can save it as a URL to generate
+                        anytime or download it as a PDF.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Hardware requirements</dt>
+                    <dd>When you select your product version for the hardware requirements report,
+                        you can set a report filter by the<uicontrol>Operating system
+                            families</uicontrol> option. Set the operating system filter by
+                        selecting some or all of the operating systems that are supported by your
+                        product. After you view the report, you can save it as a URL to generate
+                        anytime or download it as a PDF.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>End of service</dt>
+                    <dd>The end of service report shows the service window of the products that you
+                        specify over an eightyear span. For example, you can find out when your
+                        product is scheduled to go out of service.</dd>
+                </dlentry>
+            </dl>
+        </section>
+    </conbody>
+</concept>

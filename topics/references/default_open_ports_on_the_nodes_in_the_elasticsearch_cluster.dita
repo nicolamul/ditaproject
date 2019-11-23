@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="default_open_ports_on_the_nodes_in_the_elasticsearch_cluster">
+    <title>Default open ports on the nodes in the Elasticsearch cluster</title>
+    <refbody>
+        <table frame="all" rowsep="1" colsep="1" id="table_i5l_1md_vjb">
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="newCol3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry align="left" valign="top">Port number</entry>
+                        <entry align="left" valign="top">Protocol</entry>
+                        <entry>Service</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry align="left" valign="top">22</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                        <entry>sshd</entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">80</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">443</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">8888</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                        <entry>
+                            <p>SimpleHTTPServer (used for copying the siqelasticsearch.yml</p>
+                            <p>configuration file from the Elasticsearch node to the data
+                                server)</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">9200</entry>
+                        <entry align="left" valign="top">tcp6</entry>
+                        <entry>
+                            <p>docker-proxy (listening for REST</p>
+                            <p>requests)</p>
+                            <p>You can restrict access to this port by either enabling Search Guard
+                                or by setting up a firewall. For more information, see “Securing
+                                Elasticsearch cluster communication with Search Guard” on page 51 or
+                                “Restricting access to port 9200 on Elasticsearch nodes” on page
+                                52.</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">9300</entry>
+                        <entry align="left" valign="top">tcp6</entry>
+                        <entry>
+                            <p>docker-proxy (internode communication)</p>
+                        </entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

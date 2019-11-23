@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="default_open_ports_on_the_ibm_storediq_gateway">
+    <title>Default open ports on the IBM StoredIQ gateway</title>
+    <refbody>
+        <table frame="all" rowsep="1" colsep="1" id="table_lq2_lmd_vjb">
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                <colspec colname="c2" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry align="left" valign="top">Port number</entry>
+                        <entry align="left" valign="top">Protocol</entry>
+                        <entry align="left" valign="top">Service</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry align="left" valign="top">22</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                        <entry align="left" valign="top">PROD-ssh</entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">80</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                        <entry align="left" valign="top">PROD-web</entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">443</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                        <entry align="left" valign="top">
+                            <p>PROD-https (UI and Web Services APIs)</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">5432</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                        <entry align="left" valign="top">PROD-postgres</entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">5434</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                        <entry align="left" valign="top" morerows="5">
+                            <p>PROD-transport (IBM StoredIQ</p>
+                            <p>transport services;</p>
+                            <p>communication between the</p>
+                            <p>gateway and the data server)</p>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">8765</entry>
+                        <entry align="left" valign="top" morerows="4">tcp</entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">7766</entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">11102</entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">11103</entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">11104</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

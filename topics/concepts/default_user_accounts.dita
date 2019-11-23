@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="default_user_accounts">
+    <title>Default user accounts</title>
+    <shortdesc>IBM StoredIQ comes with a set of default user accounts.</shortdesc>
+    <conbody>
+        <p>For security reasons, change the passwords for these default accounts after the
+            installation is complete so that they are unique and different from the default values.
+            The new password must be 8 to 64 characters long and must contain characters from at
+            least three of these categories:</p>
+        <ul id="ul_sn4_fsd_vjb">
+            <li>Uppercase letters: A - Z</li>
+            <li>Lowercase letters: a - z</li>
+            <li>Digits: 0 - 9</li>
+            <li>Punctuation marks or special characters: . : = * ˆ / $ # _ + @ &amp; % -</li>
+        </ul>
+        <table frame="all" rowsep="1" colsep="1" id="table_ptn_hsd_vjb">
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+                <colspec colname="c2" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry align="left" valign="top">Account</entry>
+                        <entry align="left" valign="top">Default password</entry>
+                        <entry align="left" valign="top">Description</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry align="left" valign="top"><codeph>admin</codeph></entry>
+                        <entry align="left" valign="top"><codeph>admin</codeph></entry>
+                        <entry align="left" valign="top">Administrative account for accessing IBM
+                            StoredIQ Data Server. Use this account for the initial setup of the data
+                            server and to create further administrative accounts for routine
+                                administration.<p>Change the password in IBM StoredIQ Data Server
+                                under <b>Administration</b> > <b>Configuration</b> > <b>Manage
+                                    users</b>.</p></entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top"><codeph>audituser</codeph></entry>
+                        <entry align="left" valign="top"><codeph>Passw0rd</codeph>!</entry>
+                        <entry align="left" valign="top">Account for accessing the audit database on
+                            the AppStack. <p>Change the password by running the
+                                    <b>change_audituser_password</b> script as siqadmin user on the
+                                AppStack.</p></entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top"><codeph>builder</codeph></entry>
+                        <entry align="left" valign="top">None. Password is set during initial
+                            configuration.</entry>
+                        <entry align="left" valign="top">Account for setting up and configuring the
+                            Elasticsearch cluster.<p> You can change the password by using the Linux
+                                    <b>passwd</b> command.</p></entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top"><codeph>reportuser</codeph></entry>
+                        <entry align="left" valign="top"><codeph>St0red1q</codeph></entry>
+                        <entry align="left" valign="top">Account for accessing the report database
+                            on the AppStack. <p>Change the password by running the
+                                    <b>change_reportuser_password</b> script as
+                                    <codeph>siqadmin</codeph> user on the AppStack.</p></entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top"><codeph>siqadmin</codeph></entry>
+                        <entry align="left" valign="top"><codeph>Passw0rd</codeph>!</entry>
+                        <entry align="left" valign="top">Administrative account for managing the
+                            AppStack server. For more information, see the administration guide.
+                                <p>With new installations, you are prompted for a new password
+                                during the initial configuration of the AppStack. In updated
+                                deployments, change the password by using the Linux <b>passwd</b>
+                                command.</p></entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top"><codeph>superadmin</codeph></entry>
+                        <entry align="left" valign="top"><codeph>admin</codeph></entry>
+                        <entry align="left" valign="top">Administrative account for accessing IBM
+                            StoredIQ Administrator and IBM StoredIQ Data Server. Use this account
+                            for the initial setup of IBM StoredIQ and to create further
+                            administrative accounts for routine administration so that their actions
+                            can be audited. <p>Change the password in IBM StoredIQ Administrator: go
+                                to <b>Users</b> and edit the <codeph>superadmin</codeph>
+                                account.</p> The <codeph>superadmin</codeph> account has access to
+                            all IBM StoredIQ applications on the application stack. To switch
+                            applications, click the triangle arrow icon and select the application
+                            that you want to access from the list of the available
+                            applications.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

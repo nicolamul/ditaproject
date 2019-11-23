@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="encryption_of_data_at_rest">
+    <title>Encryption of data at rest</title>
+    <shortdesc>Starting with IBM StoredIQ version 7.6.0.15, the disk volume on which the
+        Elasticsearch indexes are stored is encrypted by default. IBM StoredIQ uses Linux Unified
+        Key Setup (LUKS) for disk encryption. For details about key management, see “Key and
+        certificate management” on page 41. 16 IBM StoredIQ: Deployment and Configuration
+        Guide</shortdesc>
+    <conbody>
+        <p>Optionally, you can encrypt the application data on the IBM StoredIQ application stack.
+            For more information, see “Enabling encryption of IBM StoredIQ AppStack application
+            data” on page 50.</p>
+    </conbody>
+</concept>

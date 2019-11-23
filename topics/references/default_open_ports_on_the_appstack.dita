@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="default_open_ports_on_the_appstack">
+    <title>Default open ports on the AppStack</title>
+    <shortdesc></shortdesc>
+    <refbody>
+        <table frame="all" rowsep="1" colsep="1" id="table_mwm_rkd_vjb">
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry align="left" valign="top">Port number</entry>
+                        <entry align="left" valign="top">Protocol</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry align="left" valign="top">22</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">80</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                    </row>
+                    <row>
+                        <entry align="left" valign="top">443</entry>
+                        <entry align="left" valign="top">tcp</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="enable_or_disable_ports_or_services_on_the_ibm_storediq_data_server">
+    <title>Enable or disable ports or services on the IBM StoredIQ data server</title>
+    <shortdesc>To manage ports, you can use the /usr/local/storediq/bin/util/port_handler.pyc script
+        with the appropriate parameter:<codeph>python /usr/local/storediq/bin/util/port_handler.pyc
+            -parameter</codeph></shortdesc>
+    <conbody>
+        <dl>
+            <dlentry>
+                <dt>-s</dt>
+                <dd>To list the current rules in iptables</dd>
+            </dlentry>
+            <dlentry>
+                <dt>-l</dt>
+                <dd>To list the supported services</dd>
+            </dlentry>
+            <dlentry>
+                <dt>-d port_number|'port_range'</dt>
+                <dd>To delete a port or a range of port numbers from iptables, for
+                    example:<codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -d '21200:21299'</codeblock></dd>
+            </dlentry>
+            <dlentry>
+                <dt>-e 'service_name'</dt>
+                <dd>To enable a specific service, for example, to enable HTTPS
+                    services:<codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -e 'PROD-https'</codeblock></dd>
+            </dlentry>
+            <dlentry>
+                <dt>-d 'service_name'</dt>
+                <dd>To disable a specific service, for example, to disable HTTPS
+                    services:<codeblock>python /usr/local/storediq/bin/util/port_handler.pyc -d 'PROD-https'</codeblock></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>
