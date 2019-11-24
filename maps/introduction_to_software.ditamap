@@ -8,14 +8,7 @@
     </topicref>
     <topicref href="../topics/concepts/ibm_storediq_components.dita">
         <topicref href="../topics/concepts/solution_components.dita"/>
-        <topicref href="../topics/concepts/applications_of_ibm_stored_iq.dita">
-            <topicref href="../topics/concepts/ibm_storediq_data_server.dita"/>
-            <topicref href="../topics/concepts/ibm_storediq_administrator.dita"/>
-            <topicref href="../topics/concepts/ibm_storediq_data_workbench.dita"/>
-            <topicref href="../topics/concepts/ibm_stored_iq_insights.dita"/>
-            <topicref href="../topics/concepts/ibm_stored_iq_policy_manager.dita"/>
-            <topicref href="../topics/concepts/ibm_storediq_desktop_data_collector.dita"/>
-        </topicref>
+        <topicref href="../topics/concepts/applications_of_ibm_stored_iq.dita"/>
     </topicref>
     <topicref href="../topics/concepts/planning_for_deployment.dita">
         <topicref

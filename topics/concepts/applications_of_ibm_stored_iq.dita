@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="applications_of_ibm_stored_iq">
-    <title>Applications of IBM Stored IQ</title>
+    <title>Applications of IBM StoredIQ</title>
     <shortdesc>IBM StoredIQ provides interface applications that help fulfill its solution
         goals.</shortdesc>
     <conbody>
         <example>
             <dl>
+                <dlentry>
+                    <dt>IBM StoredIQ Data Server</dt>
+                    <dd>IBM StoredIQ Data Server user interface provides access to data server
+                        functionality. It allows administrators to view the dashboard and see the
+                        status of the jobs and system details. Administrators can manage information
+                        about servers and conduct various configurations on the system and
+                        application settings.</dd>
+                </dlentry>
                 <dlentry>
                     <dt>IBM StoredIQ Administrator</dt>
                     <dd>
@@ -21,22 +29,20 @@
                             indexes, data servers, jobs, infosets, and actions. This list provides
                             an overview as to how IBM StoredIQ Administrator works:</p>
                         <ul id="ul_h5q_kbd_vjb">
-                            <li>
-                                <p><b>Viewing data servers and volumes:</b> Using IBM StoredIQ
-                                    Administrator, the Administrator can identify what data servers
-                                    are deployed, their location, what data is being managed, and
-                                    the status of each data server in the system. Volume management
-                                    is a central component of IBM StoredIQ. IBM StoredIQ
-                                    Administrator also allows the Administrator to see what volumes
-                                    are currently under management, which data server is responsible
-                                    for that volume, the state of the volume after indexing, and the
-                                    amount and size of information that is contained by each volume.
-                                    Administrators can also add volumes to and delete volumes from
-                                    data servers through this interface.</p>
-                                <p>If IBM StoredIQ is configured for integration with Information
-                                    Governance Catalog, the Administrator can also manage which
-                                    volumes are published to the governance catalog.</p>
-                            </li>
+                            <li><b>Viewing data servers and volumes:</b> Using IBM StoredIQ
+                                Administrator, the Administrator can identify what data servers are
+                                deployed, their location, what data is being managed, and the status
+                                of each data server in the system. Volume management is a central
+                                component of IBM StoredIQ. IBM StoredIQ Administrator also allows
+                                the Administrator to see what volumes are currently under
+                                management, which data server is responsible for that volume, the
+                                state of the volume after indexing, and the amount and size of
+                                information that is contained by each volume. Administrators can
+                                also add volumes to and delete volumes from data servers through
+                                this interface.<p>If IBM StoredIQ is configured for integration with
+                                    Information Governance Catalog, the Administrator can also
+                                    manage which volumes are published to the governance
+                                    catalog.</p></li>
                             <li><b>Scheduling harvests:</b> Harvesting, which can also be referred
                                 to as indexing, is the process or task by which IBM StoredIQ
                                 examines and classifies data in your network. Using IBM StoredIQ
@@ -109,6 +115,89 @@
                         IBM StoredIQ development environment. These connectors can be integrated
                         with a live IBM StoredIQ application to index, search, manage, and analyze
                         data on the data source.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>IBM StoredIQ data workbench</dt>
+                    <dd>Big data is a pervasive problem, not a one-time occurrence. It is easy for
+                        most companies to realize that big data is problematic, but it is hard to
+                        identify what problems they have. Big data is all about the unknown, but the
+                        unknown cannot be off limits. IBM StoredIQ Data Workbench can help you learn
+                        about 4 IBM StoredIQ: Deployment and Configuration Guide your data, make
+                        educated decisions with your most valuable asset, and turn your company's
+                        most dangerous risk into its most valuable asset.<p>IBM StoredIQ Data
+                            Workbench is a data visualization and management tool that helps you to
+                            actively manage your company's data. It helps you to determine how much
+                            data you have, where it is, who owns it, and when it was last used. When
+                            you have a clear understanding of your company's data landscape, IBM
+                            StoredIQ Data Workbench helps you take control of data. You can make
+                            informed decisions about your data and act on that knowledge by copying,
+                            copying to retention, or conducting a discovery export.</p><p>Here are
+                            just some examples of how you can use IBM StoredIQ Data
+                            Workbench.</p><ul id="ul_am3_lfd_vjb">
+                            <li>You need to find all company email that is sent from or received by
+                                Eileen Sideways (esideways@thecompany.com). You can use IBM StoredIQ
+                                Data Workbench to find all email and then copy that data to a
+                                predefined repository. You can also use IBM StoredIQ Data Workbench
+                                to find all of the esideways@thecompany.com email that occurred
+                                between specific dates and then make that email available for
+                                review.</li>
+                            <li>As an administrator, you want to rid your networks and storage of
+                                unused data. You can use IBM StoredIQ Data Workbench to find all
+                                files that were not modified in more than five years.</li>
+                            <li>You want to find all image files that are created in 2007. Not only
+                                can IBM StoredIQ Data Workbench find all image files that were
+                                created in 2007. It also shows how much space they occupy on your
+                                network.</li>
+                            <li>A user needs to understand how data about Windows is being retained.
+                                Using IBM StoredIQ Data Workbench, you can provide that user with a
+                                visual overview of the number of objects that are retained and a
+                                breakdown of files per data source. Additionally, you can apply
+                                overlays to show the user if those files contain forbidden
+                                information such as credit-card numbers or Social Security
+                                numbers.</li>
+                            <li>If IBM StoredIQ is configured accordingly, you can select the
+                                infosets and filters that are published to the governance catalog
+                                for unified governance of structured and unstructured information.
+                                When integrating with Information Governance Catalog, you can also
+                                analyze and classify the data governed by IBM StoredIQ based on the
+                                data classes that are synchronized from the governance catalog.</li>
+                        </ul></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>IBM StoredIQ Insights</dt>
+                    <dd>IBM StoredIQ Insights provides dynamic and interactive filtering for your
+                        data with easy access to all metadata and instant plain-text preview of
+                        document content for full-text indexed volumes. Faceted search lets you
+                        drill down to refine your search results as needed. In addition, you can
+                        apply any valid IBM StoredIQ filter query. Tags let you categorize the data
+                        for easier management. Visual representations of search results help you
+                        gain further insights into your data. Several chart types let you look at
+                        and explore data from different perspectives, thus helping you identify
+                        patterns and relationships very quickly.<p>With IBM StoredIQ Insights, you
+                            can search data that is managed and indexed by a data server of the type
+                            DataServer - Distributed. In mixed deployments that have classic and
+                            distributed data servers, only the content from distributed data servers
+                            will be searchable.</p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>IBM StoredIQ Policy Manager</dt>
+                    <dd>IBM StoredIQ Policy Manager allows users to run mature policies and
+                        processes at scale across a wider range of data.<p>The users can define and
+                            run systemwide policies, focusing on the execution of the process rather
+                            than understanding or reviewing affected data objects. Additionally,
+                            with reports of IBM StoredIQ Policy Manager, you can record what actions
+                            were conducted, when they were conducted, and what data was affected by
+                            the policy's execution.</p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>IBM StoredIQ Desktop Data Collector</dt>
+                    <dd>IBM StoredIQ Desktop Data Collector (also referred to as desktop client
+                        indexes desktops as volumes. The volumes appear in IBM StoredIQ Data Server
+                        and in IBM StoredIQ Administrator, where they can be used like any other
+                        data source.<p>The data server maintains an index using the information sent
+                            by the desktop client. After indexing, desktops - even offline or
+                            unreachable ones - can be viewed, searched, or targeted for later policy
+                            action.</p></dd>
                 </dlentry>
             </dl>
         </example>
