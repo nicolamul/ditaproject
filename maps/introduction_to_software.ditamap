@@ -2,6 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Introduction to software</title>
+    <topicref href="../images/images_keydefs.ditamap" format="ditamap"/>
     <topicref href="../topics/concepts/about_this_publication.dita">
         <topicref href="../topics/references/ibm_storediq_product_library.dita"/>
         <topicref href="../topics/references/contacting_ibm_storediq_customer_support.dita"/>

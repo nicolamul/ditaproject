@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>IBM images key definitions</title>
+    <keydef keys="Data Server" format="png" href="storedIqDataServer.PNG"></keydef>
+    <keydef keys="Admin" format="png" href="storedIqAdmin.PNG"></keydef>
+    <keydef keys="Data Workbench" format="png" href="storedIqDataWorkbench.PNG"></keydef>
+    <keydef keys="Insights" format="png" href="storedIqInsights.PNG"></keydef>
+    <keydef keys="Policy Manager" format="png" href="storedIqPolicyManager.PNG"></keydef>
+</map>
