@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="default_open_ports_on_the_nodes_in_the_elasticsearch_cluster">
+<reference id="default_open_ports_on_the_nodes_in_the_elasticsearch_cluster" audience="expert" outputclass="pdf" xml:lang="en-US" status="new">
     <title>Default open ports on the nodes in the Elasticsearch cluster</title>
     <refbody>
         <table frame="all" rowsep="1" colsep="1" id="table_i5l_1md_vjb">

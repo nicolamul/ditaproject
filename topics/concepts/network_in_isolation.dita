@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="network_in_isolation">
+<concept id="network_in_isolation" audience="expert" outputclass="pdf" xml:lang="en-US" status="new">
     <title>Network in isolation</title>
     <shortdesc>If full-text harvesting and Step-up Analytics actions (cartridges) are applied,
         Elasticsearch indexes can contain potentially sensitive content. Therefore, you should

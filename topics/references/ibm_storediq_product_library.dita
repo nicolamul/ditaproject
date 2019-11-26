@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="ibm_storediq_product_library">
+<reference id="ibm_storediq_product_library" audience="novice" outputclass="pdf" xml:lang="en-US" status="changed">
     <title>IBM StoredIQ product library</title>
     <shortdesc>The following documents are available in the IBM® StoredIQ® product
         library.</shortdesc>

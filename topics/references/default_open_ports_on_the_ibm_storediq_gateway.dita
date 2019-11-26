@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="default_open_ports_on_the_ibm_storediq_gateway">
+<reference id="default_open_ports_on_the_ibm_storediq_gateway" audience="expert" outputclass="pdf" xml:lang="en-US" status="new">
     <title>Default open ports on the IBM StoredIQ gateway</title>
     <refbody>
         <table frame="all" rowsep="1" colsep="1" id="table_lq2_lmd_vjb">

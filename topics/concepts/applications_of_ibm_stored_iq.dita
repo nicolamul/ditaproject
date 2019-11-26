@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="applications_of_ibm_stored_iq">
+<concept id="applications_of_ibm_stored_iq" audience="expert" outputclass="pdf" xml:lang="en-US" status="new">
     <title>Applications of IBM StoredIQ</title>
     <shortdesc>IBM StoredIQ provides interface applications that help fulfill its solution
         goals.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                
+                
+                
+                
+             
+             
+             
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <example>
             <dl>
@@ -14,8 +27,7 @@
                         status of the jobs and system details. Administrators can manage information
                         about servers and conduct various configurations on the system and
                         application settings. <image conkeyref="Server/" format="png"
-                            conref="#applications_of_ibm_stored_iq" width="500px" keyref="Data"
-                        /></dd>
+                            conref="#applications_of_ibm_stored_iq" width="500px" keyref="Data"/></dd>
 
                 </dlentry>
                 <dlentry>

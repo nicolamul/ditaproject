@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="open_virtual_appliance__ova__configuration_requirements">
+<concept id="open_virtual_appliance__ova__configuration_requirements" audience="expert" outputclass="pdf" xml:lang="en-US" status="changed">
     <title>Open Virtual Appliance (OVA) Configuration Requirements</title>
     <shortdesc>IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0
         (all fix pack levels) or VMware ESXi 6.0 (all fix pack levels) environments. You must have a
         virtual infrastructure that meets the IBM StoredIQ hardware requirements.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword>virtual infrastructure</keyword>
+                <keyword>storage</keyword>
+                <keyword>performance</keyword>
+                <keyword>memory</keyword>
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <section id="section_fkd_hhd_vjb">
             <title>Application stack</title>

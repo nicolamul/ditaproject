@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="default_open_ports_on_the_appstack">
+<reference id="default_open_ports_on_the_appstack" audience="expert" outputclass="pdf" xml:lang="en-US" status="changed">
     <title>Default open ports on the AppStack</title>
     <shortdesc></shortdesc>
     <refbody>

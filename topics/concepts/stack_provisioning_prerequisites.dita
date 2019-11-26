@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="stack_provisioning_prerequisites">
+<concept id="stack_provisioning_prerequisites" audience="expert" outputclass="pdf" xml:lang="en-US" status="unchanged">
     <title>Stack-provisioning prerequisites</title>
     <shortdesc>Before a deployment, verify that you meet these prerequisites.</shortdesc>
     <conbody>

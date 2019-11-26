@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="network_and_port_requirements">
+<concept id="network_and_port_requirements" audience="expert" outputclass="pdf" xml:lang="en-US" status="changed">
     <title>Network and port requirements</title>
     <shortdesc>For proper communication, the IBM StoredIQ components must be able to connect to each
         other. You must enable network connectivity from the following locations:</shortdesc>

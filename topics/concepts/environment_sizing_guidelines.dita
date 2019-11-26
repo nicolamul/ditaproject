@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="environment_sizing_guidelines">
+<concept id="environment_sizing_guidelines" audience="expert" outputclass="pdf" xml:lang="en-US" status="changed">
     <title>Environment sizing guidelines</title>
     <shortdesc>To size an environment precisely, you must understand the factors such as harvest
         frequency, complexity of the source, and use case scenarios that drive application use and
         action execution.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm>processing<indexterm>archives</indexterm></indexterm>
+                <indexterm>interrogator</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <p>The general design guidelines for IBM StoredIQ are as follows:</p>
         <ul id="ul_pm5_h4d_vjb">

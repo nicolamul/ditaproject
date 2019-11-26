@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="reference_wnp_5kd_vjb">
+<reference id="reference_wnp_5kd_vjb" audience="expert" outputclass="pdf" xml:lang="en-US" status="unchanged">
     <title>Default open ports on the IBM StoredIQ data server</title>
     <refbody>
         <table frame="all" rowsep="1" colsep="1" id="table_lrr_1ld_vjb">

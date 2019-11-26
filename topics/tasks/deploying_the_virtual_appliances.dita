@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="deploying_the_virtual_appliances">
+<task id="deploying_the_virtual_appliances" audience="expert" outputclass="pdf" xml:lang="en-US" status="new">
     <title>Deploying the virtual appliances</title>
     <taskbody>
         <context>Use VMware vSphere Client to deploy the virtual appliances to an ESX server. Deploy

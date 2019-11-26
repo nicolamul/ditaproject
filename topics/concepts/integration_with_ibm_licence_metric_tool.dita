@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="integration_with_ibm_licence_metric_tool">
+<concept id="integration_with_ibm_licence_metric_tool" audience="expert" outputclass="pdf" xml:lang="en-US" status="new">
     <title>Integration with IBM licence metric tool</title>
     <shortdesc>Versions of IBM License Metric Tool (ILMT) that support IBM Software License Metric
         Tag (SLMT) can generate license consumption reports. An ILMT agent can scan in configurable

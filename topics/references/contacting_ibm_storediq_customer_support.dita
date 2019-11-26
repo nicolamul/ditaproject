@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="contacting_ibm_storediq_customer_support">
+<reference id="contacting_ibm_storediq_customer_support" audience="novice" outputclass="pdf"
+    xml:lang="en-US" status="unchanged">
     <title>Contacting IBM StoredIQ customer support</title>
     <shortdesc>For IBM StoredIQ technical support or to learn about available service options,
         contact IBM StoredIQ customer support at this phone number:</shortdesc>

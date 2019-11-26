@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="solution_components">
+<concept id="solution_components" audience="expert" outputclass="pdf" xml:lang="en-US" status="new">
     <title>Solution components</title>
     <shortdesc>IBM StoredIQ provides three solution components: the gateway, data servers, and
         application stack (AppStack).</shortdesc>
+    
     <conbody>
         <example>
             <dl>

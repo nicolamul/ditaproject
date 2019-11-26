@@ -2,6 +2,15 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>IBM images key definitions</title>
+    
+    <topicmeta>
+        <critdates>
+            <created date="21 November 2019"/>
+            <revised modified="26 November 2019"/>
+        </critdates>
+        <audience audience="expert" experiencelevel="general"/> 
+    </topicmeta>
+    
     <keydef keys="Data Server" format="png" href="storedIqDataServer.PNG"></keydef>
     <keydef keys="Admin" format="png" href="storedIqAdmin.PNG"></keydef>
     <keydef keys="Data Workbench" format="png" href="storedIqDataWorkbench.PNG"></keydef>

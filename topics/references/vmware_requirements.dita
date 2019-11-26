@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="vmware_requirements">
+<reference id="vmware_requirements" audience="expert" outputclass="pdf" xml:lang="en-US" status="new">
     <title>VMware requirements</title>
     <refbody>
         <example>

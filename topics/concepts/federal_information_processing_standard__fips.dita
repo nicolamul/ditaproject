@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="federal_information_processing_standard__fips">
+<concept id="federal_information_processing_standard__fips" audience="expert" outputclass="pdf" xml:lang="en-US" status="new">
     <title>Federal Information Processing Standard (FIPS)</title>
     <shortdesc>FIPS is a standard recommended by the National Institute of Standards and Technology
         (NIST) and the US Federal Government. It ensures certain security standards are met for

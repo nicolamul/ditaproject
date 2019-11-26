@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
-<reference id="tcp__port_ranges_for_the_firewall">
+<reference id="tcp__port_ranges_for_the_firewall" audience="expert" outputclass="pdf" xml:lang="en-US" status="new">
     <title>TCP: port ranges for the firewall</title>
     <shortdesc>To ensure the network access for desktop volumes, the following port ranges must be
         open through a firewall. </shortdesc>
