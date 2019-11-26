@@ -4,6 +4,13 @@
     <title>Licence usage metrics</title>
     <shortdesc>Using the IBM License Metric Tool, you can generate license consumption reports that
         count IBM StoredIQ license usage.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm conkeyref="indexKey/consumption_reps"/>  
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <p>IBM StoredIQ is licensed by Resource Value Unit (RVU). RVU calculation is based on
             terabytes IBM StoredIQ.</p>

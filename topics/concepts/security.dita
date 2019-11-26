@@ -6,4 +6,11 @@
         it manages, especially when you deploy IBM StoredIQ into sensitive environments. IBM
         StoredIQ keeps your data secure through encryption, security hardening, and
         auditing.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm conkeyref="indexKey/encryption"/>  
+            </keywords>
+        </metadata>
+    </prolog>
 </concept>

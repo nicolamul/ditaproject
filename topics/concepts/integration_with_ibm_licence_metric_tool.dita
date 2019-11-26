@@ -9,6 +9,14 @@
         This number is to be used as input for the RVU License Conversion Table specified in the
         license information (li_languagecode file) that comes with IBM StoredIQ. On the application
         stack, you can find the license information in the License directory.</shortdesc>
+    
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm conkeyref="indexKey/integration"/>  
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <p>For more information about using IBM License Metric Tool, see the IBM License Metric Tool
             documentation.</p>

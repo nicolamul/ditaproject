@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-    <title>Introduction to software</title>
+    <title>IBM StoredIQ</title>
 
     <topicmeta>
         <critdates>
@@ -10,6 +10,9 @@
         </critdates>
         <audience audience="expert" experiencelevel="general" xml:lang="en-US"/> 
     </topicmeta>
+    
+    <topicref href="indexing.dita" />
+    
     
     <topicref href="../images/images_keydefs.ditamap" format="ditamap"/>
     <topicref href="index_terms.ditamap" format="ditamap"/>

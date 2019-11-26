@@ -9,9 +9,10 @@
     <prolog>
         <metadata>
             <keywords>
-                <keyword>system requirements</keyword>
-                <keyword>hardware requirements</keyword>
-                <keyword>end of service</keyword>
+                <indexterm conkeyref="indexKey/sys_reqs"/>
+                <indexterm conkeyref="indexKey/hard_reqs"/>
+                <indexterm conkeyref="indexKey/end_service"/>
+                
             </keywords>
         </metadata>
     </prolog>

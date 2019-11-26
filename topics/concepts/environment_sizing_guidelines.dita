@@ -8,8 +8,8 @@
     <prolog>
         <metadata>
             <keywords>
-                <indexterm>processing<indexterm>archives</indexterm></indexterm>
-                <indexterm>interrogator</indexterm>
+                <indexterm conkeyref="indexKey/processing"/>  
+                <indexterm conkeyref="indexKey/interrogator"/>
             </keywords>
         </metadata>
     </prolog>

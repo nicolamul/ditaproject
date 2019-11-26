@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map id="index_terms.ditamap" >
-    <title>Index terms</title>
-    <topicmeta> 
-        
-            <critdates>
-                <created date="20 November 2019"/>
-                <revised modified="26 November 2019"/>
-            </critdates>
-            <audience audience="expert" experiencelevel="general" xml:lang="en-US"/> 
-        
-        
-        <keywords>
-            
-            <indexterm id="dist_infrastructure">distributed infrastructure<index-see>IBM StoredIQ</index-see></indexterm>
-            <indexterm id="vol_management">volume management</indexterm>
-            <indexterm id="harvesting">harvesting<index-see>IBM StoredIQ Administrator</index-see></indexterm>
-            <indexterm id="data_visual">data visualization</indexterm>
-            <indexterm id="email">email</indexterm>
-            <indexterm id="image">image</indexterm>
-            <indexterm id="overlays">overlays</indexterm>
-            <indexterm id="filtering">filtering<index-see>IBM StoredIQ Data Workbench</index-see></indexterm>
-            <indexterm id="sys_reqs">system requirements<index-see>Software Compatability Reports</index-see></indexterm>
-            <indexterm id="hard_reqs">hareware requirements</indexterm>
-            <indexterm id="end_service">end of service</indexterm>
-            <indexterm id="virtual_infra">virtual infrastructure</indexterm>
-            <indexterm id="storage">storage</indexterm>
-            <indexterm id="performance">performance<index-see>IOPS</index-see></indexterm>
-            <indexterm id="memory">memory<indexterm>data node</indexterm></indexterm>
-            <indexterm id="processing">processing<indexterm>archives</indexterm></indexterm>
-            <indexterm id="interrogator">interrogator</indexterm>
-            <indexterm id="consumption_reps">consumption reports<indexterm>licence usage</indexterm></indexterm>
-            <indexterm id="integration">integration<indexterm>Licence Metric Tool</indexterm></indexterm>
-            <indexterm id="encryption">encryption<indexterm>certificates</indexterm></indexterm>
-            
-        </keywords></topicmeta>
-   
-  
-    
-    
-       
+
+<keydef keys="indexKey" href="indexing.dita"></keydef>
+         
 </map>

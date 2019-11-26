@@ -8,10 +8,10 @@
     <prolog>
         <metadata>
             <keywords>
-                <keyword>virtual infrastructure</keyword>
-                <keyword>storage</keyword>
-                <keyword>performance</keyword>
-                <keyword>memory</keyword>
+                <indexterm conkeyref="indexKey/virtual_infra"/>  
+                <indexterm conkeyref="indexKey/storage"/>
+                <indexterm conkeyref="indexKey/performance"/>
+                <indexterm conkeyref="indexKey/memory"/>
             </keywords>
         </metadata>
     </prolog>
