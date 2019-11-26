@@ -2,16 +2,18 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>IBM StoredIQ</title>
+    
 
     <topicmeta>
         <critdates>
             <created date="16 November 2019"/>
             <revised modified="26 November 2019"/>
         </critdates>
-        <audience audience="expert" experiencelevel="general" xml:lang="en-US"/> 
+        <audience audience="expert" experiencelevel="general" xml:lang="en-US"/>
     </topicmeta>
     
-    <topicref href="indexing.dita" />
+   <data />
+    <topicref href="indexing.dita" processing-role="resource-only" />
     
     
     <topicref href="../images/images_keydefs.ditamap" format="ditamap"/>
@@ -68,4 +70,11 @@
         <topicref href="../topics/tasks/deploying_the_virtual_appliances.dita"/>
         <topicref href="../topics/tasks/deploying_ibm_storediq_on_microsoft_hyper_v.dita"/>
     </topicref>
+    
+    <!-- Glossary map -->
+    
+   <topichead navtitle="Glossary" />
+    <topichead  />
+    
+    
 </map>
